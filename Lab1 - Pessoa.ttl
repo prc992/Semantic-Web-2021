@@ -1,0 +1,21 @@
+@prefix semantic_web: <http://www.semanticweb.ufc.br/ontology>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@base <http://semanticweb.ufc.br/resource/>.
+
+<Paulo> rdf:type foaf:Person;
+		foaf:firstName "Paulo";
+		foaf:lastName "Cordeiro";
+		foaf:mbox "paulocordeiro@gmail.com";
+		foaf:age "41";
+		foaf:homepage <https://orcid.org/0000-0003-3750-5582>; 
+        foaf:img <https://www.facebook.com/photo?fbid=10212629762802718&set=a.2492735681448>;
+		foaf:phone "85998720807";
+		foaf:knows <http://lattes.cnpq.br/9431229866203038>;
+		foaf:knows <http://lattes.cnpq.br/9790693300026949>;
+		foaf:knows <http://lattes.cnpq.br/2991281565518934>;		 
+		foaf:topic_interest <http://dbpedia.org/resource/The_Matrix>;
+		foaf:interest <http://dbpedia.org/resource/Shrimp>.
+        

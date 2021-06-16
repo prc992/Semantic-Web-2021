@@ -1,0 +1,57 @@
+@prefix semantic_web: <http://www.semantic.web.ufc.br/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@base <http://www.semantic.web.ufc.br/resource/> .
+
+# Declaração da propriedade nome
+semantic_web:papel rdf:type rdf:Property.
+<TurmaWS2021> rdf:type foaf:Group;
+        foaf:name "Web Semantica 2021";
+        foaf:Organization <https://www.ufc.br/>;
+        foaf:primaryTopic <http://dbpedia.org/resource/Semantic_Web>;
+        foaf:publications <https://classroom.google.com/u/0/c/MzQ5ODkzNTQwNzg1>;
+        foaf:based_near <http://dbpedia.org/resource/Fortaleza>.
+
+
+<Tulio> rdf:type foaf:Person;
+        foaf:name "Tulio Vidal";
+        semantic_web:papel "Monitor";                
+        foaf:member <TurmaWS2021> .
+
+<Vania> rdf:type foaf:Person;
+        foaf:name "Vania Vidal";
+        semantic_web:papel "Professor";
+        foaf:member <TurmaWS2021> .
+       
+<Washington> rdf:type foaf:Person;
+        foaf:name "Washington Silva";
+        semantic_web:papel "Monitor";        
+        foaf:member <TurmaWS2021> .      
+
+<Paulo> rdf:type foaf:Person;
+        foaf:name "Paulo Cordeiro";
+        semantic_web:papel "Aluno";
+        foaf:member <TurmaWS2021> .
+       
+<Renato> rdf:type foaf:Person;
+        foaf:name "Renato Freitas";
+        semantic_web:papel "Aluno";        
+        foaf:member <TurmaWS2021> .
+       
+<Gabriel> rdf:type foaf:Person;
+        foaf:name "João Gabriel";
+        semantic_web:papel "Aluno";        
+        foaf:member <TurmaWS2021> .
+       
+<Ronney> rdf:type foaf:Person;
+        foaf:name "Ronney Silva";
+        semantic_web:papel "Aluno";
+        foaf:member <TurmaWS2021> .
+
+<Ivandro> rdf:type foaf:Person;
+        foaf:name "Ivandro Claudino";
+        semantic_web:papel "Aluno";        
+        foaf:member <TurmaWS2021> .
